@@ -10,4 +10,9 @@ ollama pull mistral:v0.2
 ollama pull llama2
 ollama list
 ollama run <name-of-model>
+sudo apt-get update
+sudo apt install docker
+docker info
+docker pull qdrant/qdrant
+docker run -p 63333:6333 -v /home/quamer23nasim38/Hindi-Language-AI-Chatbot-for-Enterprises-using-Qdrant-MLFlow-and-LangChain/:/qdrant/storage qdrant/qdrant
 ```
