@@ -163,3 +163,7 @@ cython_debug/
 *.gz
 *.vec
 *.zip
+
+aliases/
+collections/
+raft_state.json
