@@ -167,3 +167,7 @@ cython_debug/
 aliases/
 collections/
 raft_state.json
+test.txt
+.lock
+meta.json
+collection/
