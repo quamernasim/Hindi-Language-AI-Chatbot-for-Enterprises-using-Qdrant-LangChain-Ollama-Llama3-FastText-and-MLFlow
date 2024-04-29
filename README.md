@@ -14,5 +14,5 @@ sudo apt-get update
 sudo apt install docker
 docker info
 docker pull qdrant/qdrant
-docker run -p 63333:6333 -v /home/quamer23nasim38/Hindi-Language-AI-Chatbot-for-Enterprises-using-Qdrant-MLFlow-and-LangChain/:/qdrant/storage qdrant/qdrant
+docker run -p 6333:6333 -v /home/quamer23nasim38/Hindi-Language-AI-Chatbot-for-Enterprises-using-Qdrant-MLFlow-and-LangChain/:/qdrant/storage qdrant/qdrant
 ```
