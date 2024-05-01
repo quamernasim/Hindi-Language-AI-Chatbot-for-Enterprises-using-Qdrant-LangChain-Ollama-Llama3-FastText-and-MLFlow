@@ -68,21 +68,6 @@ ollama list
 ollama run llama3
 ```
 
-argparser.add_argument("--mlflow_logging", type=bool, default=False)
-argparser.add_argument("--host", type=str, default='localhost')
-argparser.add_argument("--port", type=int, default=6333)
-argparser.add_argument("--embed_model_path", type=str, default='wiki.hi.bin')
-argparser.add_argument("--collection_name", type=str, default='my_collection')
-argparser.add_argument("--collection_limit", type=int, default=1)
-argparser.add_argument("--model_name", type=str, default='llama3')
-argparser.add_argument("--num_predict", type=int, default=100)
-argparser.add_argument("--num_ctx", type=int, default=3000)
-argparser.add_argument("--num_gpu", type=int, default=2)
-argparser.add_argument("--temperature", type=float, default=0.7)
-argparser.add_argument("--top_k", type=int, default=50)
-argparser.add_argument("--top_p", type=float, default=0.95)
-argparser.add_argument("--query", type=str, default='किस तरह के किरदार और कहानी तत्व रचनाकारों और फिल्म निर्माताओं को आकर्षित करते हैं?')
-
 ### Usage
 To run the python script, use the following command:
 ```
