@@ -114,3 +114,7 @@ pip install -r requirements.txt
 
 ## Conclusion
 This repository contains the source code for a Hindi Language AI Chatbot for Enterprises using Qdrant, MLFlow, and LangChain. The notebooks contains step-by-step instructions to create the chatbot, and it can be run in any Python environment that supports Jupyter Notebook. The chatbot can be used by enterprises to provide customer support in Hindi language.
+
+## Related Blog
+Please reed the related blog for in-depth undertsnading of each step.
+[Hindi-Language AI Chatbot for Enterprises Using Qdrant, MLFlow, and LangChain](https://github.com/quamernasim/Hindi-Language-AI-Chatbot-for-Enterprises-using-Qdrant-LangChain-Ollama-Llama3-FastText-and-MLFlow)
